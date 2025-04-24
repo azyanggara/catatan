@@ -46,9 +46,12 @@ fastboot reboot​
 
 ✅ Cara Jalankan:
 
-    Simpan sebagai build_openwrt_img.sh
+Simpan sebagai build_openwrt_img.sh
 
-    Jadikan executable:
+    chmod +x build_openwrt_img.sh
+
+
+ Jadikan executable:
 
 chmod +x build_openwrt_img.sh
 
