@@ -57,8 +57,8 @@ chmod +x build_openwrt_img.sh
 
     ./build_openwrt_img.sh
 
-./build_openwrt_img.sh
-
+    ./build_openwrt_img.sh
+    
 Setelah selesai, kamu tinggal flash hasilnya:
 
 fastboot flash system qcom-msm89x7-openwrt.img
