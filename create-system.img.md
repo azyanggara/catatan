@@ -11,10 +11,11 @@ dd if=/dev/zero of=qcom-msm89x7-openwrt.img bs=1M count=2500
 
 **3.** Setup loop device
 
-sudo losetup -Pf qcom-msm89x7-openwrt.img
-lsblk | grep loop
+    sudo losetup -Pf qcom-msm89x7-openwrt.img
+    lsblk | grep loop
 
-Misalnya muncul /dev/loop28p1 dan p2.
+
+Misalnya muncul **/dev/loop28p1 dan p2.**
 
 **4.** Format partisi
 
