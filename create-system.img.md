@@ -21,12 +21,14 @@ Misalnya muncul /dev/loop28p1 dan p2.
 sudo mkfs.ext2 -L boot /dev/loop28p1
 sudo mkfs.ext4 -L rootfs /dev/loop28p2
 
-5. Mount dan copy isi
-sudo mount /dev/loop28p1 /mnt/owrt_boot
+5. Mount dan copy
+
+      sudo mount /dev/loop28p1 /mnt/owrt_boot
 sudo mount /dev/loop28p2 /mnt/owrt_rootfs
 
-    sudo cp -a /mnt/data/openwrt_boot/. /mnt/owrt_boot/
-    sudo cp -a /mnt/data/openwrt_rootfs/. /mnt/owrt_rootfs/
+sudo cp -a /mnt/data/openwrt_boot/. /mnt/owrt_boot/
+sudo cp -a /mnt/data/openwrt_rootfs/. /mnt/owrt_rootfs/
+
     
 7. Sync, unmount, detach
 
