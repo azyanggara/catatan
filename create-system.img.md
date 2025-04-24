@@ -29,6 +29,9 @@ sudo mount /dev/loop28p2 /mnt/owrt_rootfs
 sudo cp -a /mnt/data/openwrt_boot/. /mnt/owrt_boot/
 sudo cp -a /mnt/data/openwrt_rootfs/. /mnt/owrt_rootfs/
 
+    sudo cp -a /mnt/data/openwrt_boot/. /mnt/owrt_boot/
+    sudo cp -a /mnt/data/openwrt_rootfs/. /mnt/owrt_rootfs/
+    
 6. Sync, unmount, detach
 
 sync
@@ -46,12 +49,13 @@ fastboot reboot​
 
 ✅ Cara Jalankan:
 
-**1** Simpan sebagai build_openwrt_img.sh
-**2** Jadikan executable:
+**1.** Simpan sebagai build_openwrt_img.sh
+
+**2.** Jadikan executable:
 
     chmod +x build_openwrt_img.sh
     
-**3**Jalankan:
+**3.** Jalankan:
 
     ./build_openwrt_img.sh
     
