@@ -43,17 +43,17 @@ Misalnya muncul **/dev/loop28p1 dan p2.**
 
 Setelah itu kamu bisa flash langsung:
 
-fastboot flash system qcom-msm89x7-openwrt.img
-fastboot reboot​
+    fastboot flash system qcom-msm89x7-openwrt.img
+    fastboot reboot​
 
 ​
 **kalau ingin menggunkan skrip:**
 
-Ini skrip [build_openwrt_img.sh](build_openwrt_img.sh)
+Ini skrip 
 
-✅ Cara Jalankan:
+✅ kalau ingin menggunkan skrip:
 
-**1.** Simpan sebagai build_openwrt_img.sh
+**1.** [ambil disini](build_openwrt_img.sh) Simpan sebagai build_openwrt_img.sh
 
 **2.** Jadikan executable:
 
@@ -65,5 +65,5 @@ Ini skrip [build_openwrt_img.sh](build_openwrt_img.sh)
     
 Setelah selesai, kamu tinggal flash hasilnya:
 
-fastboot flash system qcom-msm89x7-openwrt.img
-fastboot reboot
+    fastboot flash system qcom-msm89x7-openwrt.img
+    fastboot reboot
