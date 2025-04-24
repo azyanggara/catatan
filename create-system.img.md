@@ -1,7 +1,7 @@
 🔧 Langkah Manual: Buat Image ala PMOS
 **1.** Buat file kosong
 
-dd if=/dev/zero of=qcom-msm89x7-openwrt.img bs=1M count=2500
+    dd if=/dev/zero of=qcom-msm89x7-openwrt.img bs=1M count=2500
 
 **2.** Buat partisi
 
@@ -19,8 +19,8 @@ Misalnya muncul **/dev/loop28p1 dan p2.**
 
 **4.** Format partisi
 
-sudo mkfs.ext2 -L boot /dev/loop28p1
-sudo mkfs.ext4 -L rootfs /dev/loop28p2
+    sudo mkfs.ext2 -L boot /dev/loop28p1
+    sudo mkfs.ext4 -L rootfs /dev/loop28p2
 
 **5.** Mount dan copy
 
