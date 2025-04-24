@@ -1,4 +1,5 @@
 🔧 Langkah Manual: Buat Image ala PMOS
+
 **1.** Buat file kosong
 
     dd if=/dev/zero of=qcom-msm89x7-openwrt.img bs=1M count=2500
@@ -46,7 +47,9 @@ fastboot flash system qcom-msm89x7-openwrt.img
 fastboot reboot​
 
 ​
+**kalau ingin menggunkan skrip:**
 
+Ini skrip [build_openwrt_img.sh](build_openwrt_img.sh)
 
 ✅ Cara Jalankan:
 
