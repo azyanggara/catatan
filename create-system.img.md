@@ -7,8 +7,8 @@
 **2.** Buat partisi
 
     parted qcom-msm89x7-openwrt.img --script mklabel msdos \
-    mkpart primary ext2 1MiB 257MiB \
-    mkpart primary ext4 257MiB 100%
+        mkpart primary ext2 1MiB 257MiB \
+        mkpart primary ext4 257MiB 100%
 
 **3.** Setup loop device
 
