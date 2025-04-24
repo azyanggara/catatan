@@ -52,7 +52,7 @@ fastboot reboot​
 
 chmod +x build_openwrt_img.sh
 
-    Jalankan:
+    ./build_openwrt_img.sh
 
 ./build_openwrt_img.sh
 
